@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crunchyroll Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header" tabindex="0">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Crunchyroll" /></a>
+            <span class="header-indicator" aria-hidden="true">
+                <span class="header-indicator-icon">›</span>
+            </span>
+        </div>
+
+        <nav class="nav">
+            <a href="#">Novidades</a>
+            <a href="#">Populares</a>
+            <a href="#">Simulcast</a>
+            <a href="#">Categorias ▾</a>
+            <a href="#">Jogos</a>
+            <a href="#">Notícias ▾</a>
+        </nav>
+
+        <div class="actions">
+            <button type="button" aria-label="Pesquisar">
+                <img src="images/search.svg" alt="Search" />
+            </button>
+
+            <a href="./minhalista.html" aria-label="Fila">
+                <img src="images/bookmark.svg" alt="" />
+            </a>
+
+            <img class="avatar"
+                src="https://static.crunchyroll.com/assets/avatar/170x170/100010-spy-x-family-anya-3.png"
+                alt="Avatar" />
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-carousel">
+            <button class="arrow arrow-left" type="button" aria-label="Slide anterior">‹</button>
+            <button class="arrow arrow-right" type="button" aria-label="Próximo slide">›</button>
+
+            <article class="slide active">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime/SEASON%204/ULTRA-WIDE/ThatTimeIGotReincarnatedAsASlime-S4-Character-UW-LTR.png"
+                    alt="That Time I Got Reincarnated as a Slime">
+
+                <div class="slide-content">
+                    <img class="anime-logo"
+                        src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/CurationAssets/That%20Time%20I%20Got%20Reincarnated%20as%20a%20Slime/SEASON%204/ULTRA-WIDE/ThatTimeIGotReincarnatedAsASlime-S4-UW-Logo-EN.png"
+                        alt="That Time I Got Reincarnated as a Slime">
+
+                    <p class="meta"><span>A14</span> • Leg | Dub • Fantasy, Adventure, Comedy</p>
+
+                    <p class="description">
+                        Mikami Satoru, funcionário de uma megacorporação, é apunhalado por um assassino
+                        e renasce num mundo paralelo como um slime.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slide">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/The%20Drops%20of%20God/SEASON%201/ULTRA-WIDE/TheDropsOfGod-S1-Teaser-UW-LTR.png"
+                    alt="The Drops of God">
+
+                <div class="slide-content">
+                    <img class="anime-logo"
+                        src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/CurationAssets/The%20Drops%20of%20God/SEASON%201/ULTRA-WIDE/TheDropsOfGod-S1-UW-Logo-EN.png"
+                        alt="The Drops of God">
+
+                    <p class="meta"><span>A14</span> • Leg | Dub</p>
+
+                    <p class="description">
+                        Shizuku Kanzaki e Issei Tomine se enfrentam em uma disputa de conhecimentos
+                        sobre vinhos para garantir a herança do pai.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slide">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/Dorohedoro/SEASON%201/ULTRA-WIDE/Dorohedoro-S1-KV1-UW-LTR.png"
+                    alt="Dorohedoro">
+
+                <div class="slide-content">
+                    <img class="anime-logo"
+                        src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/CurationAssets/Dorohedoro/SEASON%201/ULTRA-WIDE/Dorohedoro-S1-UW-Logo-EN.png"
+                        alt="Dorohedoro">
+
+                    <p class="meta"><span>A16</span> • Leg | Dub</p>
+
+                    <p class="description">
+                        Em um distrito sem lei, Caiman procura recuperar seu rosto verdadeiro
+                        e descobrir a verdade por trás de sua transformação.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slide">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/Classroom%20of%20the%20Elite/SEASON%204/ULTRA-WIDE/ClassroomOfTheElite-S4-Character-UW-LTR.png"
+                    alt="Classroom of the Elite">
+
+                <div class="slide-content">
+                    <img class="anime-logo"
+                        src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/CurationAssets/Classroom%20of%20the%20Elite/SEASON%204/ULTRA-WIDE/ClassroomOfTheElite-S4-UW-Logo-EN.png"
+                        alt="Classroom of the Elite">
+
+                    <p class="meta"><span>A14</span> • Leg | Dub • Drama, Suspense</p>
+
+                    <p class="description">
+                        Em uma escola de elite, estudantes competem em um sistema cruel onde inteligência,
+                        estratégia e manipulação definem quem sobe ou cai.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slide">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/The%20Angel%20Next%20Door%20Spoils%20Me%20Rotten/SEASON%201/ULTRA-WIDE/TheAngelNextDoorSpoilsMeRotten-S1-KV1-UW-LTR.png"
+                    alt="The Angel Next Door Spoils Me Rotten">
+
+                <div class="slide-content">
+                    <img class="anime-logo"
+                        src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=600/CurationAssets/The%20Angel%20Next%20Door%20Spoils%20Me%20Rotten/SEASON%201/ULTRA-WIDE/TheAngelNextDoorSpoilsMeRotten-S1-UW-Logo-EN.png"
+                        alt="The Angel Next Door Spoils Me Rotten">
+
+                    <p class="meta"><span>A12</span> • Leg | Dub • Romance, Comedy, Shonen</p>
+
+                    <p class="description">
+                        Mahiru é um anjo de pessoa – estudiosa, gentil e deslumbrante. Amane,
+                        seu vizinho e colega de classe, não poderia ser mais diferente.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="slide">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=94,width=1920/CurationAssets/DARK%20MOON%20THE%20BLOOD%20ALTAR/SEASON%201/ULTRA-WIDE/DarkMoonTheBloodAltar-S1-KV1-UW-LTR.png"
+                    alt="DARK MOON: THE BLOOD ALTAR">
+
+                <div class="slide-content">
+                    <h2 class="anime-logo-text">DARK MOON:<br>THE BLOOD ALTAR</h2>
+
+                    <p class="meta"><span>A14</span> • Leg | Dub • Fantasy, Romance</p>
+
+                    <p class="description">
+                        Sooha entra em uma nova escola e se envolve com jovens misteriosos,
+                        enquanto segredos sobrenaturais começam a surgir ao seu redor.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#" class="watch">▷ Começar a assistir E1</a>
+                        <button class="list" type="button" aria-label="Adicionar à lista">
+                            <img src="images/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <div class="dots">
+                <button class="dot active" type="button" aria-label="Slide 1"></button>
+                <button class="dot" type="button" aria-label="Slide 2"></button>
+                <button class="dot" type="button" aria-label="Slide 3"></button>
+                <button class="dot" type="button" aria-label="Slide 4"></button>
+                <button class="dot" type="button" aria-label="Slide 5"></button>
+                <button class="dot" type="button" aria-label="Slide 6"></button>
+            </div>
+        </section>
+
+        <section class="continue-row" aria-label="Continuar assistindo">
+            <div class="continue-row-header">
+                <h2>Continue Assistindo</h2>
+                <a class="history-link" href="historico.html" aria-label="Ver Histórico" data-t="view-history-btn">
+                    <span>Ver Histórico</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" role="img">
+                        <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="continue-track" data-continue-track></div>
+
+            <article class="playable-card playable-card-template">
+                <a class="playable-card-link" href="#"
+                    aria-label="Continuar Temporada 3 Episodio 41 de Attack on Titan"></a>
+
+                <div class="playable-thumbnail">
+                    <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=640,height=360/catalog/crunchyroll/4a5c95280a10d45b2f2480c5a5d028a0.jpg"
+                        alt="Confiança" />
+
+                    <div class="playable-play-overlay" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img">
+                            <path d="M4 2l16 10L4 22z"></path>
+                        </svg>
+                    </div>
+
+                    <div class="playable-progress" aria-hidden="true">
+                        <span style="width: 8%;"></span>
+                    </div>
+
+                    <span class="playable-duration">23m restantes</span>
+                </div>
+
+                <div class="playable-body">
+                    <a class="playable-series" href="/pt-br/series/GR751KNZY/attack-on-titan">Attack on Titan</a>
+                    <h3>T3 E41 - Confiança</h3>
+
+                    <p class="playable-meta">
+                        <span class="rating-a16">A16</span>
+                        <span class="calendar-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" role="img">
+                                <path
+                                    d="M4 20h16v-8H4v8zM6 6v1a1 1 0 0 0 2 0V6h8v1a1 1 0 1 0 2 0V6h2v4H4V6h2zm15-2h-3V3a1 1 0 1 0-2 0v1H8V3a1 1 0 0 0-2 0v1H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z">
+                                </path>
+                            </svg>
+                        </span>
+                        21/12/2021
+                    </p>
+
+                    <p class="playable-description">
+                        On the run and running out of time, the Scouts must entrust their lives to others if they plan
+                        on surviving.
+                    </p>
+
+                    <div class="playable-footer">
+                        <a class="playable-continue" href="#">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M5.944 3C5.385 3 5 3.445 5 4.22v16.018c0 .771.384 1.22.945 1.22.234 0 .499-.078.779-.243l13.553-7.972c.949-.558.952-1.468 0-2.028L6.724 3.243C6.444 3.078 6.178 3 5.944 3m1.057 2.726l11.054 6.503L7 18.732l.001-13.006">
+                                </path>
+                            </svg>
+                            Continuar T3 E41
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="content-row" aria-label="Animes em alta no Brasil">
+            <div class="content-row-header">
+                <h2>Animes em alta no Brasil</h2>
+                <div class="content-row-controls">
+                    <button class="row-arrow row-arrow-left" type="button" aria-label="Rolar anterior"
+                        data-t="left-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-left-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                    <button class="row-arrow row-arrow-right" type="button" aria-label="Rolar próximo"
+                        data-t="right-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-right-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cards-track" data-row-track></div>
+        </section>
+
+        <section class="content-row recommendations-row" aria-label="Recomendações para Você">
+            <div class="content-row-header">
+                <h2>Recomendações para Você</h2>
+                <div class="content-row-controls">
+                    <button class="row-arrow row-arrow-left" type="button" aria-label="Rolar anterior"
+                        data-t="left-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-left-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                    <button class="row-arrow row-arrow-right" type="button" aria-label="Rolar próximo"
+                        data-t="right-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-right-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cards-track" data-recommendations-track></div>
+        </section>
+
+        <section class="content-row inspired-row" aria-label="Inspirados em você">
+            <div class="content-row-header">
+                <h2>Inspirados em você</h2>
+                <div class="content-row-controls">
+                    <button class="row-arrow row-arrow-left" type="button" aria-label="Rolar anterior"
+                        data-t="left-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-left-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                    <button class="row-arrow row-arrow-right" type="button" aria-label="Rolar próximo"
+                        data-t="right-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-right-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cards-track" data-inspired-track></div>
+        </section>
+
+        <section class="content-row gamers-row" aria-label="Animes para GAMERS">
+            <div class="content-row-header">
+                <div>
+                    <h2>Animes para GAMERS</h2>
+                    <p class="content-row-description">Mandando um F para o tédio.</p>
+                </div>
+                <div class="content-row-controls">
+                    <button class="row-arrow row-arrow-left" type="button" aria-label="Rolar anterior"
+                        data-t="left-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-left-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                    <button class="row-arrow row-arrow-right" type="button" aria-label="Rolar próximo"
+                        data-t="right-arrow">
+                        <svg class="row-arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            data-t="angle-right-svg" aria-hidden="true" role="img">
+                            <path d="M8.6 7.4L10 6l6 6-6 6-1.4-1.4 4.6-4.6z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cards-track" data-gamers-track></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

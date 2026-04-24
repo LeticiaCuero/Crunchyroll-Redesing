@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Listas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lista.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo" href="index.html" aria-label="Ir para a página inicial">
+            <img src="images/logo.png" alt="Crunchyroll" />
+        </a>
+
+        <nav class="nav">
+            <a href="#">Novidades</a>
+            <a href="#">Populares</a>
+            <a href="#">Simulcast</a>
+            <a href="#">Categorias ▾</a>
+            <a href="#">Jogos</a>
+            <a href="#">Notícias ▾</a>
+        </nav>
+
+        <div class="actions">
+            <button type="button" aria-label="Pesquisar">
+                <img src="images/search.svg" alt="" />
+            </button>
+
+            <a href="minhalista.html" aria-label="Minhas Listas">
+                <img src="images/bookmark.svg" alt="" />
+            </a>
+
+            <img class="avatar"
+                src="https://static.crunchyroll.com/assets/avatar/170x170/100010-spy-x-family-anya-3.png"
+                alt="Avatar" />
+        </div>
+    </header>
+
+    <main class="lists-page">
+
+        <section class="lists-header">
+            <h1>
+                <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M17 18.113l-3.256-2.326A2.989 2.989 0 0 0 12 15.228c-.629 0-1.232.194-1.744.559L7 18.113V4h10v14.113zM18 2H6a1 1 0 0 0-1 1v17.056c0 .209.065.412.187.581a.994.994 0 0 0 1.394.233l4.838-3.455a1 1 0 0 1 1.162 0l4.838 3.455A1 1 0 0 0 19 20.056V3a1 1 0 0 0-1-1z">
+                    </path>
+                </svg>
+                Minhas Listas
+            </h1>
+
+            <nav class="tabs">
+                <button class="tab-button active" type="button" data-tab="crunchylistas">
+                    Crunchylistas
+                </button>
+
+                <button class="tab-button" type="button" data-tab="historico">
+                    Histórico
+                </button>
+            </nav>
+        </section>
+
+        <section class="tab-panel active" id="crunchylistas">
+            <section class="empty-box">
+                <img src="https://www.crunchyroll.com/build/assets/img/empty_list_state/empty-cr-list.png"
+                    alt="Lista vazia" />
+
+                <p>
+                    Você ainda não tem nenhuma Crunchylista.<br>
+                    Vamos criar uma!
+                </p>
+
+                <button type="button">Criar Nova Lista</button>
+            </section>
+        </section>
+
+        <section class="tab-panel" id="historico">
+            <div class="history-content-header">
+                <h2>Mais Recentes</h2>
+                <button class="clear-history-button" type="button">Limpar Histórico</button>
+            </div>
+
+            <div class="history-list">
+
+                <article class="history-card">
+                    <a href="#" class="history-thumb">
+                        <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=320,height=180/catalog/crunchyroll/4a5c95280a10d45b2f2480c5a5d028a0.jpg"
+                            alt="Confiança">
+
+                        <span class="history-play-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m4 2 16 10L4 22z"></path>
+                            </svg>
+                        </span>
+
+                        <span class="history-duration">23m restantes</span>
+
+                        <span class="history-progress">
+                            <span style="width: 8%;"></span>
+                        </span>
+                    </a>
+
+                    <div class="history-info">
+                        <a href="#" class="history-series">Attack on Titan</a>
+
+                        <h3>
+                            <a href="#">T3 E41 - Confiança</a>
+                        </h3>
+
+                        <p class="history-description">
+                            On the run and running out of time, the Scouts must entrust their lives to others if they
+                            plan on surviving.
+                        </p>
+
+                        <div class="history-footer">
+                            <span>23/04/2026</span>
+
+                            <button type="button" aria-label="Remover">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M13 2h-2a1 1 0 0 0-1 1v1H4a1 1 0 0 0 0 2h1v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6h1a1 1 0 1 0 0-2h-6V3a1 1 0 0 0-1-1m-1 2v2h5v14H7V6h5V4zm-2 5a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="history-card">
+                    <a href="#" class="history-thumb">
+                        <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=320,height=180/catalog/crunchyroll/b075e6e3d2b6f8bdbb934b53facc0646.jpg"
+                            alt="História Antiga">
+
+                        <span class="history-play-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 2c-5.177 0-9.446 3.954-9.949 9H0l3 3 3-3H4.069C4.564 7.06 7.928 4 12 4c4.411 0 8 3.589 8 8s-3.589 8-8 8a7.986 7.986 0 0 1-5.333-2.037 1 1 0 1 0-1.334 1.49A9.977 9.977 0 0 0 12 22c5.514 0 10-4.486 10-10S17.514 2 12 2">
+                                </path>
+                            </svg>
+                        </span>
+
+                        <span class="history-duration">Assistido</span>
+                    </a>
+
+                    <div class="history-info">
+                        <a href="#" class="history-series">Attack on Titan</a>
+
+                        <h3>
+                            <a href="#">T3 E40 - História Antiga</a>
+                        </h3>
+
+                        <p class="history-description">
+                            Historia e Erwin olham para o seu passado, revelando um governo escuso, com planos secretos
+                            e a inspiração para uma insurgência.
+                        </p>
+
+                        <div class="history-footer">
+                            <span>22/04/2026</span>
+
+                            <button type="button" aria-label="Remover">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M13 2h-2a1 1 0 0 0-1 1v1H4a1 1 0 0 0 0 2h1v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6h1a1 1 0 1 0 0-2h-6V3a1 1 0 0 0-1-1m-1 2v2h5v14H7V6h5V4zm-2 5a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="history-card">
+                    <a href="#" class="history-thumb">
+                        <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=320,height=180/catalog/crunchyroll/a2d6e8cf6353edad325dfd90d6807694.jpg"
+                            alt="Dor">
+
+                        <span class="history-play-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m4 2 16 10L4 22z"></path>
+                            </svg>
+                        </span>
+
+                        <span class="history-duration">24m</span>
+                    </a>
+
+                    <div class="history-info">
+                        <a href="#" class="history-series">Attack on Titan</a>
+
+                        <h3>
+                            <a href="#">T3 E39 - Dor</a>
+                        </h3>
+
+                        <p class="history-description">
+                            O Reconhecimento toma posição contra um novo inimigo, mas não são só os Titãs com quem eles
+                            estão lutando agora.
+                        </p>
+
+                        <div class="history-footer">
+                            <span>22/04/2026</span>
+
+                            <button type="button" aria-label="Remover">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M13 2h-2a1 1 0 0 0-1 1v1H4a1 1 0 0 0 0 2h1v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6h1a1 1 0 1 0 0-2h-6V3a1 1 0 0 0-1-1m-1 2v2h5v14H7V6h5V4zm-2 5a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="history-card">
+                    <a href="#" class="history-thumb">
+                        <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=320,height=180/catalog/crunchyroll/3b94749042f9fc0ec08bcd688bf7b9fe.jpg"
+                            alt="Sinal de Fumaça">
+
+                        <span class="history-play-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m4 2 16 10L4 22z"></path>
+                            </svg>
+                        </span>
+
+                        <span class="history-duration">2m restantes</span>
+
+                        <span class="history-progress">
+                            <span style="width: 88%;"></span>
+                        </span>
+                    </a>
+
+                    <div class="history-info">
+                        <a href="#" class="history-series">Attack on Titan</a>
+
+                        <h3>
+                            <a href="#">T3 E38 - Sinal de Fumaça</a>
+                        </h3>
+
+                        <p class="history-description">
+                            Depois de quase não sobreviver à recuperação de Eren, uma ameça surge das sombras e coloca a
+                            vida de todos novamente em perigo.
+                        </p>
+
+                        <div class="history-footer">
+                            <span>22/04/2026</span>
+
+                            <button type="button" aria-label="Remover">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M13 2h-2a1 1 0 0 0-1 1v1H4a1 1 0 0 0 0 2h1v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6h1a1 1 0 1 0 0-2h-6V3a1 1 0 0 0-1-1m-1 2v2h5v14H7V6h5V4zm-2 5a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v6a1 1 0 1 0 2 0v-6a1 1 0 0 0-1-1z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="lista.js"></script>
+
+</body>
+
+</html>
